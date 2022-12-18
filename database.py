@@ -1,6 +1,10 @@
 fileBase='phoneBook.csv'
 configBase='config.txt'
 
+def setFilename(file):
+    global fileBase
+    fileBase=file
+
 def loadBase():
     global fileBase
     try:

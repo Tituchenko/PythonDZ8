@@ -5,6 +5,7 @@ import config
 
 def start():
     config.convertFromStr(db.loadConfig())
+    db.setFilename(config.getConfig()['fileName'])
     while True:
         choice = view.showMenu()
         if mainMenu(choice):
