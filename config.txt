@@ -1,0 +1,3 @@
+fileName=phone.csv
+registrFree=on
+telMask=on
